@@ -136,7 +136,7 @@
     <style name="CoverDescription.Duration">
         <item name="android:maxLines">1</item>
         <item name="android:textSize">@dimen/cover_description_floating_small</item>
-        <item name="android:textColor">@color/lightblue500</item>
+        <item name="android:textColor">@color/lightOrange500</item>
     </style>
     <style name="CoverDescription.Overlay">
         <item name="android:background">#BB555555</item>
@@ -176,7 +176,7 @@
 		<item name="android:layout_height">wrap_content</item>
 	</style>
 	<style name="VideoInfoFileInfo.Title">
-		<item name="android:textColor">@color/lightblue500</item>
+		<item name="android:textColor">@color/lightOrange500</item>
 <item name="android:drawablePadding">4dip</item>
 	</style>
 	<style name="VideoInfoFileInfo.Smaller" parent="textAppearanceSmall">

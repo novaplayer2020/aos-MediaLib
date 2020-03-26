@@ -82,5 +82,10 @@
     <color name="help_overlay_button_pressed">#ffabc8db</color>
 
     <color name="transparent_grey">#AA37474F</color>
+
+    <color name="blue_dark">#001321</color>
+
+    <color name="lightOrange400">#FE8906</color>
+    <color name="lightOrange500">#FE8906</color>
 </resources>
 

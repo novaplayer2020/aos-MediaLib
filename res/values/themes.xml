@@ -38,9 +38,9 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
         <item name="actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
-        <item name="colorPrimary">@color/lightblue500</item>
+        <item name="colorPrimary">@color/lightOrange500</item>
         <item name="colorPrimaryDark">#002642</item>
-        <item name="colorAccent">@color/lightblue400</item>
+        <item name="colorAccent">@color/lightOrange400</item>
 
     </style>
 
