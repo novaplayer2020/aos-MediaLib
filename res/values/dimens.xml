@@ -36,9 +36,9 @@
     <dimen name="list_expanded_padding">10dip</dimen>
 
     <!-- ============ VIDEO BROWSER ============ -->
-    <dimen name="video_grid_column_width">124dip</dimen>
-    <dimen name="video_grid_poster_width">124dip</dimen>    <!-- video_grid_column_width-->
-    <dimen name="video_grid_poster_height">186dip</dimen>   <!-- video_grid_poster_height = 3 / 2 * video_grid_poster_width -->
+    <dimen name="video_grid_column_width">110dip</dimen>
+    <dimen name="video_grid_poster_width">110dip</dimen>    <!-- video_grid_column_width-->
+    <dimen name="video_grid_poster_height">165dip</dimen>   <!-- video_grid_poster_height = 3 / 2 * video_grid_poster_width -->
     <dimen name="video_grid_poster_margin_top">2dip</dimen> <!-- margin to have background visible around the thumbnail when pressed -->
     <dimen name="video_grid_poster_margin_left">2dip</dimen> <!-- margin to have background visible around the thumbnail when pressed -->
     <dimen name="video_grid_poster_margin_right">2dip</dimen> <!-- margin to have background visible around the thumbnail when pressed -->
