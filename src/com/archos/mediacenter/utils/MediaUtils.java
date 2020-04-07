@@ -51,6 +51,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Formatter;
 import java.util.Locale;
+import java.util.concurrent.TimeUnit;
 
 public class MediaUtils {
     private final static String TAG = "Utils";
@@ -378,6 +379,18 @@ public static int restoreBestPosition(GridView view, int selectedPosition,
                 // %m'%s''
                 res = String.valueOf((sec % 3600) / 60) + "'" + (s < 10 ? "0" + String.valueOf(s) : String.valueOf(s)) + "''";
             }
+        }
+        return res;
+    }
+
+    static public String formatTimeToMinutes(long ms){
+        String res;
+        if (ms <= 0)
+            res = "";
+        else {
+            long minutes = TimeUnit.MILLISECONDS.toMinutes(ms);
+
+            return String.valueOf(minutes) + " min";
         }
         return res;
     }
