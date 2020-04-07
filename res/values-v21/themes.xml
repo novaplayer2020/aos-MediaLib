@@ -4,9 +4,9 @@
     <style name="ArchosTheme" parent="@android:style/Theme.Material">
         <item name="android:actionBarStyle">@style/Widget.Material.ActionBar.Archos</item>
         <item name="android:colorPrimary">@color/lightOrange500</item>
-        <item name="android:colorPrimaryDark">#002642</item>
+        <item name="android:colorPrimaryDark">@color/main_blue</item>
         <item name="android:colorAccent">@color/lightOrange400</item>
-        <item name="android:navigationBarColor">#001b30</item>
+        <item name="android:navigationBarColor">@color/main_blue</item>
         <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
     </style>
 
@@ -20,26 +20,26 @@
 
 
     <style name="ArchosThemeBlueCompat" parent="Theme.AppCompat">
-        <item name="android:windowBackground">@drawable/background_2014</item>
+        <item name="android:windowBackground">@color/main_blue</item>
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
         <item name="actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
         <item name="android:colorPrimary">@color/lightOrange500</item>
-        <item name="android:colorPrimaryDark">#002642</item>
+        <item name="android:colorPrimaryDark">@color/main_blue</item>
         <item name="android:colorAccent">@color/lightOrange400</item>
         <item name="colorPrimary">@color/lightOrange500</item>
-        <item name="colorPrimaryDark">#002642</item>
+        <item name="colorPrimaryDark">@color/main_blue</item>
         <item name="colorAccent">@color/lightOrange400</item>
-        <item name="android:navigationBarColor">#001b30</item>
+        <item name="android:navigationBarColor">@color/main_blue</item>
         <item name="android:alertDialogTheme">@style/Theme.AlertDialog</item>
     </style>
     <style name="Theme.AlertDialog" parent="@android:style/Theme.Material.Dialog.Alert">
         <item name="android:colorPrimary">@color/lightOrange500</item>
-        <item name="android:colorPrimaryDark">#002642</item>
+        <item name="android:colorPrimaryDark">@color/main_blue</item>
         <item name="android:colorAccent">@color/lightOrange400</item>
     </style>
 
     <style name="Widget.Material.ActionBar.Archos" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">@null</item>
+        <item name="android:background">@color/main_blue</item>
     </style>
 
     <style name="Theme.Transparent" parent="@android:style/Theme.DeviceDefault.NoActionBar">

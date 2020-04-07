@@ -12,11 +12,11 @@
     </style>
 
     <style name="ArchosThemeBlue" parent="ArchosTheme">
-        <item name="android:windowBackground">@drawable/background_2014</item>
+        <item name="android:windowBackground">@color/main_blue</item>
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Archos</item>
     </style>
     <style name="ArchosThemeBlueCompat" parent="Theme.AppCompat">
-        <item name="android:windowBackground">@drawable/background_2014</item>
+        <item name="android:windowBackground">@color/main_blue</item>
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
         <item name="actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
     </style>
@@ -34,12 +34,12 @@
     </style>
 
     <style name="ArchosThemeBlueNoActionBarCommon" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@color/lightblue800</item>
+        <item name="android:windowBackground">@color/main_blue</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
         <item name="actionBarStyle">@style/Widget.Holo.ActionBar.Archos2</item>
         <item name="colorPrimary">@color/lightOrange500</item>
-        <item name="colorPrimaryDark">#002642</item>
+        <item name="colorPrimaryDark">@color/main_blue</item>
         <item name="colorAccent">@color/lightOrange400</item>
 
     </style>
